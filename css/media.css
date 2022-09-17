@@ -1,0 +1,62 @@
+@media screen and (max-width:1300px) {
+    header nav{
+        width: 85%;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    header nav ul{
+        flex-direction: column;
+        position: absolute;
+        width: 40vw;
+        height: 90vh;
+        right: 0%;
+        top: 0%;
+        background-color: rgba(201, 222, 201, 0.31);
+        backdrop-filter: blur(1rem);
+        z-index: 99;
+        justify-content: flex-start;
+        transform: translate(100%);
+        transition: transform 350ms ease-in-out;
+    }
+    header nav ul[slider = "true"]{
+        transform: translate(0%);
+    }
+    .Menu{
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url("more.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 101;
+    }
+    ul a:nth-child(1){
+        padding: 15% 10% 8%;
+    }
+    ul a{
+        padding: 8% 10%;
+        font-size: 1.2rem;
+    }
+    header nav{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .p2{
+        flex-direction: column;
+        align-self: center;
+    }
+    .all-center{
+        width: 80%;
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .c2{
+        width: 129px;
+        left: 4%;
+    }
+}
